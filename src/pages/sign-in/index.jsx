@@ -16,7 +16,7 @@ const Index = () => {
   const [time, setTime] = useState(10)
   const navigate = useNavigate()
   const initalValues = {
-    name: "",
+    phone_number: "",
     password: "",
   }
   const signInValidationSchema = Yup.object().shape({
@@ -29,15 +29,7 @@ const Index = () => {
       .required("Password is required"),
   });
   const handleSubmit = async(value) => {
-      if(phone_number){
-        navigate('/admin')
-      } else{
-        Notification({
-          title: "Password or name is incorrect",
-          type: "error"
-        })
-      }
-      console.log(value)
+    navigate("/admin")
   } 
 
   return (
