@@ -1,0 +1,115 @@
+{
+  "students": [
+    {
+      "id": "01",
+      "name": "Abdulloh",
+      "age": 14,
+      "phone": "+998 90 766 1303",
+      "guruh": "React js Bootcamp N11",
+      "teacher": "Arslonbek Ro'ziboyev",
+      "address": "Chilonzor 8 kvartal"
+    }
+  ],
+  "teacher": [
+    {
+      "id": "123123",
+      "name": "Javohir",
+      "course": "frontend"
+    },
+    {
+      "id": "c836",
+      "age": "Standart Fullstack",
+      "name": "asdfvbgn"
+    },
+    {
+      "id": "16f1",
+      "age": "Standart Fullstack",
+      "name": "asdfvbgn"
+    },
+    {
+      "id": "8cea",
+      "age": "Standart Fullstack",
+      "name": "asdfvbgn"
+    },
+    {
+      "id": "19cc",
+      "age": "Standart Fullstack",
+      "name": "qwe"
+    },
+    {
+      "id": "9f82",
+      "age": "Standart Fullstack",
+      "name": "qwe"
+    },
+    {
+      "id": "1501",
+      "age": "Standart Fullstack",
+      "name": "Samsung Galaxy A12"
+    },
+    {
+      "id": "76ce",
+      "age": "Standart Fullstack",
+      "name": "asdwef"
+    },
+    {
+      "id": "f583"
+    },
+    {
+      "id": "851b"
+    },
+    {
+      "id": "8d22"
+    },
+    {
+      "id": "7058"
+    },
+    {
+      "id": "8181"
+    },
+    {
+      "id": "2803",
+      "course": "Standart Fullstack",
+      "name": "sdfghS"
+    },
+    {
+      "id": "8c4e",
+      "course": "Standart Fullstack",
+      "name": "dwefw"
+    },
+    {
+      "id": "32f1",
+      "course": "Standart Fullstack",
+      "name": "wqewrrghtAsd8"
+    },
+    {
+      "id": "928c",
+      "course": "Standart Fullstack",
+      "name": "w2ertg"
+    },
+    {
+      "id": "f5b0",
+      "course": "Standart Fullstack",
+      "name": "sde"
+    },
+    {
+      "id": "3a02",
+      "course": "Standart Fullstack",
+      "name": "asdf"
+    }
+  ],
+  "group": [
+    {
+      "id": "123",
+      "name": "Standart N1",
+      "course": "Backend"
+    }
+  ],
+  "course": [
+    {
+      "id": "1234",
+      "name": "Standart Fullstack",
+      "duration": "8 month",
+      "price": "100$"
+    }
+  ]
+}
