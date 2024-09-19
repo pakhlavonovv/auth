@@ -2,6 +2,7 @@ import Button from '@mui/material/Button';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import TextField from '@mui/material/TextField';
+import { NavLink } from 'react-router-dom';
 import './sass/style.scss'
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -78,8 +79,14 @@ const Index = () => {
               </div>
               <div className="card-footer">
                 <center>
-              <Button variant='contained' color='success' type='submit' form="sign-in">Save</Button>
-                </center>                
+              <Button variant='contained' style={{
+                width: "120px"
+              }} color='success' type='submit' form="sign-in">Save</Button>
+                </center>       
+                <div className="d-flex align-items-center justify-content-between gap-2">
+                <p className='mt-2'>Agar ro'yxatdan o'tmagan bo'lsangiz.</p>
+                <NavLink to="sign-up">Sign-Up</NavLink>
+                  </div>         
               </div>
             </div>
           </div>

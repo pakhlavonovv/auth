@@ -29,7 +29,7 @@ const Index = () => {
             "https://texnoark.ilyosbekdev.uz/auth/admin/sign-up", value
         )
         if(res.status == 201){
-            navigate("/")
+            navigate("/admin")
         }
     } catch (error) {
         console.log(error)
@@ -82,7 +82,7 @@ const Index = () => {
                       <Field 
                     name="phone_number"
                     as={TextField}
-                    type="number"
+                    type="text"
                     fullWidth
                     variant="outlined"
                     label="Phone number"
