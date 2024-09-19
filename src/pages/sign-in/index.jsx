@@ -9,6 +9,7 @@ import { useNavigate } from 'react-router-dom';
 import * as Yup from 'yup'
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import Notification from '../utils/notification';
+import axios from 'axios';
 
 const Index = () => {
   const [ form, setForm ] = useState({})
@@ -30,7 +31,12 @@ const Index = () => {
       .required("Password is required"),
   });
   const handleSubmit = async(value) => {
-    navigate("/admin")
+    console.log(value)
+    try {
+      const response = await axios.post("https://texnoark.ilyosbekdev.uz/auth/sign-in", value)
+    } catch (error) {
+      console.log(error)
+    }
   } 
 
   return (
@@ -84,7 +90,7 @@ const Index = () => {
               }} color='success' type='submit' form="sign-in">Save</Button>
                 </center>       
                 <div className="d-flex align-items-center justify-content-between gap-2">
-                <p className='mt-2'>Agar ro'yxatdan o'tmagan bo'lsangiz.</p>
+                <p className='mt-3'>Agar ro'yxatdan o'tmagan bo'lsangiz.</p>
                 <NavLink to="sign-up">Sign-Up</NavLink>
                   </div>         
               </div>
